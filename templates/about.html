@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 style = "margin-top: 100px; margin-bottom:30px;" class = myname>
+    Alexis Ballo
+</h1>
+<ul id="starter">
+    <li id = "menu">
+        <a href="{{ url_for('videopage') }}" class = "links">
+            <ul class = "block">
+                <li class = "test">
+                    <strong>Videos</strong>
+                </li>
+                <br>
+                <li class = "test">
+                    Click here to watch game videos
+                </li>
+                <br>
+                <li class = "test">
+                    <img src="../../static/images/video.png" class = "icons">
+                </li>
+            </ul>
+        </a>
+    </li>
+    <li id = "menu">
+        <a href="{{ url_for('bio') }}" class = "links">
+            <ul class = "block">
+                <li>
+                    <strong>Bio</strong>
+                </li>
+                <br>
+                <li>
+                    Click here to learn more about me
+                </li>
+                <br>
+                <li class = "test">
+                    <img src="../../static/images/bio.svg" class = "icons">
+                </li>
+            </ul>
+        </a>
+    </li>
+    <li id = menu>
+        <a href="{{url_for('pasttournaments') }}" class = "links">
+            <ul class = "block">
+                <li>
+                    <strong>Past Tournaments</strong>
+                </li>
+                <br>
+                <li>
+                    Click here to see tournaments
+                </li>
+                <br>
+                <li class = "test">
+                    <img src = "../../static/images/squashimage.svg" class = "icons">
+                </li>
+            </ul>
+        </a>
+    </li>
+    <li id = menu>
+        <a href="{{ url_for('pictures') }}" class = "links">
+            <ul class = "block">
+                <li>
+                    <strong>Pictures</strong>
+                </li>
+                <br>
+                <li>
+                    Click here to see pictures of me
+                </li>
+                <br>
+                <li class = "test">
+                    <img src = "../../static/images/picture.png" class = "icons">
+                </li>
+            </ul>
+        </a>
+    </li>
+    <li id = menu>
+        <a href="{{ url_for('contact') }}" class = "links" color = "black">
+            <ul class = "block">
+                <li>
+                    <strong>Contact</strong>
+                </li>
+                <br>
+                <li>
+                    Click here to get in contact with me
+                </li>
+                <br>
+                <li class = "test">
+                    <img src = "../../static/images/contact.png" class = "icons">
+                </li>
+            </ul>
+        </a>
+    </li>
+  </ul>
+
+{% endblock %}

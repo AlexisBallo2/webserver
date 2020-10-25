@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h1 class = header1>
+    Images
+</h1>
+
+<div id="thumblist">
+
+    <a href="#image1">
+      <img src="../static/images/nationals.jpg" class="thumb"/><!--you'll want to change the link in there, it's just a placeholder-->
+    </a>
+      <!--what the user sees before clicking anything-->
+
+    <div id="image1" class="lightbox"> <!--what the user sees after clicking the first image-->
+
+      <a href="#_"> <!--no need for a left arrow because there is no previous image to go to-->
+        <img src="../static/images/nationals.jpg" />
+        <p class="description">
+            John Bryan (l) and me (r), 2nd place at </br>
+            Bu19 Doubles Nationals in may 2019
+          </p>
+          <!--this is the actual image that 'grows'. You'll want this link to match the one in #image1-->
+      </a>
+
+      <a href="#_"><!--this href takes out out of full screen. -->
+        <img src="http://i.imgur.com/6JOeXGB.png" class="exit"/><!--exit button-->
+      </a>
+
+      <a href="#image2"><!--this href leads you to the next image in the slideshow-->
+        <img src="http://i.imgur.com/kkYEJHe.png" class="next"/><!--next button-->
+      </a>
+
+    </div>
+
+    <a href="#image2"><!--this href leads you to the previous image-->
+      <img src="../static/images/me.png" class="thumb" /><!--left arrow button-->
+    </a>
+
+    <div id="image2" class="lightbox"><!--from here on out, the same comments apply. Notice that the href for the previous selector is set to the id of the lightbox div for the previous image, opposite goes for the next selector. This is what makes the slider work. There are some that use CSS and huge margins, but I prefer to keep my markup and css simple enough to explain. Hope you can use this!-->
+      <a href="#image1">
+        <img src="http://i.imgur.com/Q5fdqTc.png" class="previous"/>
+      </a>
+
+      <a href="#_">
+        <img src="../static/images/me.png" />
+      </a>
+
+      <a href="#_">
+        <img src="http://i.imgur.com/6JOeXGB.png" class="exit"/>
+      </a>
+
+      <a href="#image3">
+        <img src="http://i.imgur.com/kkYEJHe.png" class="next"/>
+      </a>
+
+    </div>
+
+    <a href="#image3">
+      <img src="../static/images/lunge.jpg" class="thumb" />
+    </a>
+
+    <div id="image3" class="lightbox">
+
+      <a href="#image2">
+        <img src="http://i.imgur.com/Q5fdqTc.png" class="previous"/>
+      </a>
+
+      <a href="#_">
+        <img src="../static/images/lunge.jpg" />
+      </a>
+
+      <a href="#_">
+        <img src="http://i.imgur.com/6JOeXGB.png" class="exit"/>
+      </a>
+
+    </div>
+
+  </div><!--/thumblist-->
+  <script type="text/javascript">
+    var thirdParticlerExample = new Particler("third", {
+        fillColor: "#d3c1af",
+        backgroundColor: "#2c3e50"
+    });
+
+</script>
+
+{% endblock %}

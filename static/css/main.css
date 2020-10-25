@@ -1,0 +1,484 @@
+html {
+    /*
+      background: url(backgroundimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    */
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color:#2C3E50;
+}
+
+ul li {
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+.header1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Bitter', serif;
+    margin-top: 70px;
+}
+
+.navbar {
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.contact {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.vid1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 600px;
+}
+
+
+
+body ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+
+
+.video {
+    margin-bottom: 50px;
+}
+
+.stats {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border: 10px solid black;
+    border-radius: 10px;
+
+}
+
+.header {
+    margin: 10px auto 5px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.lower {
+    margin-top: 20px;
+}
+
+.upperlist {
+    margin-bottom: 0px;
+}
+
+.lowerlist {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#content {
+    z-index: 10;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+h2 {
+    font-weight: normal;
+}
+
+.molecules__wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+html {
+    /*
+      background: url(backgroundimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    */
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.navbar {
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.contact {
+    margin-bottom: 150px;
+    margin-top: 100px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.vid1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 600px;
+}
+
+/*
+body ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+*/
+
+
+
+.video {
+    margin-bottom: 50px;
+}
+
+.stats {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.header {
+    margin: 10px auto 5px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.lower {
+    margin-top: 20px;
+}
+
+
+.lowerlist {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#content {
+    z-index: 10;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+.bio {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    border-radius: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+.biolist {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+
+}
+
+.contact {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    width:;
+    height:;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.slackline {
+    margin-bottom:0px;
+}
+
+.slacklinelist {
+    margin-bottom:0px;
+    padding-bottom:0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.homenav {
+    display: inline;
+}
+
+.homenav li {
+    display: inline;
+    margin-top:100px;
+}
+
+#menu{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:200px;
+    background-color:white;
+    border: 3px solid black ;
+    border-radius: 10px;;
+    margin-top:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+#starter {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+.test {
+    display: block ;
+}
+
+.block li {
+    display:block;
+}
+
+.block{
+    padding-left:0px
+}
+
+.icons {
+    width:100px;
+    height: auto;
+}
+
+ a, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+ }
+
+ .links, .links:visited, .links:hover, .links:active, .links:focus {
+    text-decoration: none !important;
+    color:black !important;
+ }
+
+.links ul li {
+    text-decoration: none !important;
+    color:black !important;
+}
+
+
+.myname {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    width:200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+
+.imagestitle {
+    margin-top: 100px;
+    font-size: 60px;
+    color: white;
+}
+
+
+body a {
+    text-decoration: none;
+}
+.thumb {
+    display: inline;
+    max-height: 200px;
+}
+#thumblist {
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 200px;
+}
+#thumblist img {
+    border-radius: 8px;
+}
+.description {
+      color: white;
+      text-decoration: none;
+}
+
+/** relevant CSS Below **/
+
+.lightbox {
+    display: none; /**sets the default display to hide the lightbox until it's the :target**/
+    position: fixed; /**the rest of this styling makes the lightbox full screen when selected**/
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+}
+.lightbox img { /**sets the styling of the image in the lightbox**/
+    max-width: 80%;
+    max-height: 90%;
+    text-align: center;
+    margin-top: 2%;
+}
+.lightbox:target { /**this is where the magic happens. makes the lightbox display when it's the target of a clickable link**/
+    outline: none;
+    display: block;
+}
+.previous { /**styling the left arrow**/
+    position: fixed;
+    left: 4px;
+    top: 40%;
+    width: 40px;
+}
+.exit { /**styling the exit button**/
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+}
+.next { /**styling the right arrow**/
+    position: fixed;
+    right: 4px;
+    top: 40%;
+    width: 40px;
+}
+
+.lightbox video { /**sets the styling of the image in the lightbox**/
+    max-width: 80%;
+    max-height: 90%;
+    text-align: center;
+    margin-top: 2%;
